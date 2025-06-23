@@ -1,0 +1,29 @@
+services:
+  glpi-db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: glpi
+      MYSQL_USER: glpi
+      MYSQL_PASSWORD: glpi
+    volumes:
+      - ./data/glpi-db:/var/lib/mysql
+    networks:
+      - glpi-network
+    
+  glpi-web:
+    image: diouxx/glpi
+    environment:
+      TIMEZONE: America/Sao_Paulo
+    networks:
+      - glpi-network
+    depends_on:
+      - glpi-db
+    ports:
+      - "80:80"
+    volumes:
+      - ./data/glpi-web:/var/www/html/glpi
+      - ./chamadoexterno:/var/www/html/glpi/plugins/chamadoexterno
+
+networks:
+  glpi-network:
