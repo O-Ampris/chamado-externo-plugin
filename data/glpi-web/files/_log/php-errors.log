@@ -1,1 +1,389 @@
 [2025-06-23 11:02:17] glpiphplog.WARNING: Test logger  
+[2025-06-23 19:57:10] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Connection refused in /var/www/html/glpi/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:129                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  index.php:87                                       include()
+  public/index.php:82                                require()
+  
+[2025-06-23 23:37:03] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "DATETIME" fields is discouraged, please use "TIMESTAMP" fields instead. in /var/www/html/glpi/src/DBmysql.php at line 2157
+  Backtrace :
+  src/DBmysql.php:2157                               trigger_error()
+  src/DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src/DBmysql.php:488                                DBmysql->doQuery()
+  src/DBmysql.php:472                                DBmysql->doQueryOrDie()
+  plugins/chamadoexterno/hook.php:22                 DBmysql->queryOrDie()
+  src/Plugin.php:955                                 plugin_chamadoexterno_install()
+  front/plugin.form.php:51                           Plugin->install()
+  public/index.php:82                                require()
+  
+[2025-06-23 23:37:03] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_chamadoexterno_dados`.`id`. in /var/www/html/glpi/src/DBmysql.php at line 2169
+  Backtrace :
+  src/DBmysql.php:2169                               trigger_error()
+  src/DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src/DBmysql.php:488                                DBmysql->doQuery()
+  src/DBmysql.php:472                                DBmysql->doQueryOrDie()
+  plugins/chamadoexterno/hook.php:22                 DBmysql->queryOrDie()
+  src/Plugin.php:955                                 plugin_chamadoexterno_install()
+  front/plugin.form.php:51                           Plugin->install()
+  public/index.php:82                                require()
+  
+[2025-06-23 23:39:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "DATETIME" fields is discouraged, please use "TIMESTAMP" fields instead. in /var/www/html/glpi/src/DBmysql.php at line 2157
+  Backtrace :
+  src/DBmysql.php:2157                               trigger_error()
+  src/DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src/DBmysql.php:488                                DBmysql->doQuery()
+  src/DBmysql.php:472                                DBmysql->doQueryOrDie()
+  plugins/chamadoexterno/hook.php:22                 DBmysql->queryOrDie()
+  src/Plugin.php:955                                 plugin_chamadoexterno_install()
+  front/plugin.form.php:51                           Plugin->install()
+  public/index.php:82                                require()
+  
+[2025-06-23 23:39:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_chamadoexterno_dados`.`id`. in /var/www/html/glpi/src/DBmysql.php at line 2169
+  Backtrace :
+  src/DBmysql.php:2169                               trigger_error()
+  src/DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src/DBmysql.php:488                                DBmysql->doQuery()
+  src/DBmysql.php:472                                DBmysql->doQueryOrDie()
+  plugins/chamadoexterno/hook.php:22                 DBmysql->queryOrDie()
+  src/Plugin.php:955                                 plugin_chamadoexterno_install()
+  front/plugin.form.php:51                           Plugin->install()
+  public/index.php:82                                require()
+  
+[2025-06-23 23:39:57] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "DATETIME" fields is discouraged, please use "TIMESTAMP" fields instead. in /var/www/html/glpi/src/DBmysql.php at line 2157
+  Backtrace :
+  src/DBmysql.php:2157                               trigger_error()
+  src/DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src/DBmysql.php:488                                DBmysql->doQuery()
+  src/DBmysql.php:472                                DBmysql->doQueryOrDie()
+  plugins/chamadoexterno/hook.php:22                 DBmysql->queryOrDie()
+  src/Plugin.php:955                                 plugin_chamadoexterno_install()
+  front/plugin.form.php:51                           Plugin->install()
+  public/index.php:82                                require()
+  
+[2025-06-23 23:50:13] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to undefined method mysqli_result::numRows() in /var/www/html/glpi/plugins/chamadoexterno/hook.php at line 72
+  Backtrace :
+  src/Plugin.php:1713                                plugin_chamadoexterno_post_item_add()
+  src/CommonDBTM.php:1404                            Plugin::doHook()
+  front/ticket.form.php:80                           CommonDBTM->add()
+  public/index.php:82                                require()
+  
+[2025-06-23 23:51:05] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to undefined method mysqli_result::numRows() in /var/www/html/glpi/plugins/chamadoexterno/hook.php at line 70
+  Backtrace :
+  src/Plugin.php:1713                                plugin_chamadoexterno_post_item_add()
+  src/CommonDBTM.php:1404                            Plugin::doHook()
+  front/ticket.form.php:80                           CommonDBTM->add()
+  public/index.php:82                                require()
+  
+[2025-06-23 23:52:55] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to undefined method mysqli_result::numRows() in /var/www/html/glpi/plugins/chamadoexterno/hook.php at line 67
+  Backtrace :
+  src/Plugin.php:1713                                plugin_chamadoexterno_item_add()
+  src/CommonDBTM.php:1404                            Plugin::doHook()
+  front/ticket.form.php:80                           CommonDBTM->add()
+  public/index.php:82                                require()
+  
+[2025-06-23 23:53:51] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to undefined method mysqli_result::numRows() in /var/www/html/glpi/plugins/chamadoexterno/hook.php at line 67
+  Backtrace :
+  src/Plugin.php:1713                                plugin_chamadoexterno_item_add()
+  src/CommonDBTM.php:1404                            Plugin::doHook()
+  front/ticket.form.php:80                           CommonDBTM->add()
+  public/index.php:82                                require()
+  
+[2025-06-23 23:56:27] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to undefined method mysqli_result::numRows() in /var/www/html/glpi/plugins/chamadoexterno/hook.php at line 67
+  Backtrace :
+  src/Plugin.php:1713                                plugin_chamadoexterno_item_add()
+  src/CommonDBTM.php:1404                            Plugin::doHook()
+  front/ticket.form.php:80                           CommonDBTM->add()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:00:11] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to undefined method mysqli_result::numRows() in /var/www/html/glpi/plugins/chamadoexterno/hook.php at line 67
+  Backtrace :
+  src/Plugin.php:1713                                plugin_chamadoexterno_item_add()
+  src/CommonDBTM.php:1404                            Plugin::doHook()
+  front/ticket.form.php:80                           CommonDBTM->add()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:03:55] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to undefined method mysqli_result::numRows() in /var/www/html/glpi/plugins/chamadoexterno/hook.php at line 67
+  Backtrace :
+  src/Plugin.php:1713                                plugin_chamadoexterno_item_add()
+  src/CommonDBTM.php:1404                            Plugin::doHook()
+  front/ticket.form.php:80                           CommonDBTM->add()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:04:47] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to undefined method mysqli_result::num_rows() in /var/www/html/glpi/plugins/chamadoexterno/hook.php at line 67
+  Backtrace :
+  src/Plugin.php:1713                                plugin_chamadoexterno_item_add()
+  src/CommonDBTM.php:1404                            Plugin::doHook()
+  front/ticket.form.php:80                           CommonDBTM->add()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:12:49] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to undefined method mysqli_result::num_rows() in /var/www/html/glpi/plugins/chamadoexterno/hook.php at line 69
+  Backtrace :
+  src/Plugin.php:1713                                plugin_chamadoexterno_item_add()
+  src/CommonDBTM.php:1404                            Plugin::doHook()
+  front/ticket.form.php:80                           CommonDBTM->add()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:15:17] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::num_rows()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:15:34] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::num_rows()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:15:56] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::num_rows()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:15:59] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::num_rows()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:16:05] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::num_rows()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:16:06] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::num_rows()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:16:06] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::num_rows()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:16:17] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::num_rows()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:16:23] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::num_rows()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:16:25] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::num_rows()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:16:27] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::num_rows()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:16:29] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::num_rows()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:16:30] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::num_rows()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:17:09] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $ticket_id in /var/www/html/glpi/plugins/chamadoexterno/hook.php at line 42
+  Backtrace :
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:24:56] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::fetch_assoc()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:25:36] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::fetch_assoc()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  
+[2025-06-24 00:25:47] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined method DB::fetch_assoc()")." in template "/var/www/html/glpi/templates/components/itilobject/fields_panel.html.twig" at line 248
+  Backtrace :
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  

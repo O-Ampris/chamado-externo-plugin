@@ -1,0 +1,692 @@
+[2025-06-23 23:01:01] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:39                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:02:50] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:39                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:04:02] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:39                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:13:38] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:39                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:13:52] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:39                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:15:07] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/chamadoexterno/hook.php:46                 
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:15:07] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:55                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d","mem_usage":"0.001\", 4.02Mio)"} 
+[2025-06-23 23:15:24] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/chamadoexterno/hook.php:46                 
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:15:24] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:55                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d","mem_usage":"0.000\", 4.04Mio)"} 
+[2025-06-23 23:15:48] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/chamadoexterno/hook.php:46                 
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:15:48] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:55                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d","mem_usage":"0.000\", 4.06Mio)"} 
+[2025-06-23 23:16:17] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/chamadoexterno/hook.php:46                 
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:16:17] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:55                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d","mem_usage":"0.001\", 4.16Mio)"} 
+[2025-06-23 23:16:35] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/chamadoexterno/hook.php:46                 
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:16:35] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:55                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d","mem_usage":"0.001\", 4.18Mio)"} 
+[2025-06-23 23:17:24] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/chamadoexterno/hook.php:46                 
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:17:24] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:55                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d","mem_usage":"0.001\", 4.10Mio)"} 
+[2025-06-23 23:17:52] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/chamadoexterno/hook.php:46                 
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:17:52] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:56                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d","mem_usage":"0.001\", 4.11Mio)"} 
+[2025-06-23 23:18:19] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/chamadoexterno/hook.php:46                 
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:18:19] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:57                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d","mem_usage":"0.001\", 4.12Mio)"} 
+[2025-06-23 23:18:43] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/chamadoexterno/hook.php:46                 
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:18:43] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: SELECT * FROM glpi_plugin_chamadoexterno_dados WHERE ticket_id = 1
+  Error: Table 'glpi.glpi_plugin_chamadoexterno_dados' doesn't exist
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  ...amadoexterno/front/chamadoexterno-ticket.php:11 
+  plugins/chamadoexterno/hook.php:57                 include_once()
+  src/Plugin.php:1729                                plugin_chamadoexterno_ticket_tab()
+  ...plication/View/Extension/PluginExtension.php:72 Plugin::doHook()
+  ...tes/05/05a21b66439c1eaefa278793b2defe37.php:377 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_d6a09c5d33cf16f3ce92b6d5d21af7ff->doDisplay()
+  vendor/twig/twig/src/Template.php:335              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1435 Twig\TemplateWrapper->render()
+  ...tes/f7/f7cc10f512fae3e6483cc30d882e61c9.php:153 Twig\Extension\CoreExtension::include()
+  vendor/twig/twig/src/Template.php:360              __TwigTemplate_5c0bcbea193ae05f796f787f8ea6b1d7->doDisplay()
+  vendor/twig/twig/src/Template.php:327              Twig\Template->yield()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src/Ticket.php:4470                                Glpi\Application\View\TemplateRenderer->display()
+  src/CommonGLPI.php:680                             Ticket->showForm()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d","mem_usage":"0.001\", 4.22Mio)"} 
+[2025-06-23 23:37:03] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: 
+      CREATE TABLE `glpi_plugin_chamadoexterno_dados` (
+        `id` INT(11) NOT NULL AUTO_INCREMENT,
+        `ticket_id` INT(11) NOT NULL,
+        `responsavel_externo` TEXT,
+        `prazo_externo` DATETIME,
+        `status_externo` ENUM('pendente', 'em_progresso', 'concluido') DEFAULT NULL,
+        `date_mod` DATETIME DEFAULT NULL,
+        `date_creation` DATETIME DEFAULT CURRENT_TIMESTAMP,
+        PRIMARY KEY (`id`),
+        UNIQUE KEY (`ticket_id`),
+        FOREIGN KEY (`ticket_id`) REFERENCES `glpi_tickets` (`id`) ON DELETE CASCADE
+      ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    
+  Error: Referencing column 'ticket_id' and referenced column 'id' in foreign key constraint 'glpi_plugin_chamadoexterno_dados_ibfk_1' are incompatible.
+  Backtrace :
+  src/DBmysql.php:488                                DBmysql->doQuery()
+  src/DBmysql.php:472                                DBmysql->doQueryOrDie()
+  plugins/chamadoexterno/hook.php:22                 DBmysql->queryOrDie()
+  src/Plugin.php:955                                 plugin_chamadoexterno_install()
+  front/plugin.form.php:51                           Plugin->install()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-23 23:39:35] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: 
+      CREATE TABLE `glpi_plugin_chamadoexterno_dados` (
+        `id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+        `ticket_id` BIGINT(20) UNSIGNED NOT NULL,
+        `responsavel_externo` TEXT,
+        `prazo_externo` DATETIME,
+        `status_externo` ENUM('pendente', 'em_progresso', 'concluido') DEFAULT NULL,
+        `date_mod` DATETIME DEFAULT NULL,
+        `date_creation` DATETIME DEFAULT CURRENT_TIMESTAMP,
+        PRIMARY KEY (`id`),
+        UNIQUE KEY (`ticket_id`),
+        FOREIGN KEY (`ticket_id`) REFERENCES `glpi_tickets` (`id`) ON DELETE CASCADE
+      ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    
+  Error: Referencing column 'ticket_id' and referenced column 'id' in foreign key constraint 'glpi_plugin_chamadoexterno_dados_ibfk_1' are incompatible.
+  Backtrace :
+  src/DBmysql.php:488                                DBmysql->doQuery()
+  src/DBmysql.php:472                                DBmysql->doQueryOrDie()
+  plugins/chamadoexterno/hook.php:22                 DBmysql->queryOrDie()
+  src/Plugin.php:955                                 plugin_chamadoexterno_install()
+  front/plugin.form.php:51                           Plugin->install()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-24 00:15:14] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: 
+        INSERT INTO glpi_plugin_chamadoexterno_dados 
+        (ticket_id, responsavel_externo, prazo_externo, status_externo) VALUES 
+        (24, "Bazinga', 
+        "2004-01-16 12:00:00', 
+        "em_progresso')
+      
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2004-01-16 12:00:00', 
+        "em_progresso')' at line 4
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/chamadoexterno/hook.php:77                 
+  src/Plugin.php:1713                                plugin_chamadoexterno_item_add()
+  src/CommonDBTM.php:1404                            Plugin::doHook()
+  front/ticket.form.php:80                           CommonDBTM->add()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-24 00:19:43] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: 
+        INSERT INTO glpi_plugin_chamadoexterno_dados 
+        (ticket_id, responsavel_externo, prazo_externo, status_externo) VALUES 
+        (25, "Bazinga', 
+        "2004-01-06 00:00:00', 
+        "em_progresso')
+      
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2004-01-06 00:00:00', 
+        "em_progresso')' at line 4
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/chamadoexterno/hook.php:77                 
+  src/Plugin.php:1713                                plugin_chamadoexterno_item_add()
+  src/CommonDBTM.php:1404                            Plugin::doHook()
+  front/ticket.form.php:80                           CommonDBTM->add()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-24 00:20:58] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: 
+      INSERT INTO glpi_plugin_chamadoexterno_dados 
+      (ticket_id, responsavel_externo, prazo_externo, status_externo) VALUES 
+      (26, "Bazinga', 
+      "2025-06-10 12:00:00', 
+      "em_progresso')
+    
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2025-06-10 12:00:00', 
+      "em_progresso')' at line 4
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/chamadoexterno/hook.php:76                 
+  src/Plugin.php:1713                                plugin_chamadoexterno_item_add()
+  src/CommonDBTM.php:1404                            Plugin::doHook()
+  front/ticket.form.php:80                           CommonDBTM->add()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 
+[2025-06-24 00:38:31] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 395
+  *** MySQL query error:
+  SQL: 
+      UPDATE glpi_plugin_chamadoexterno_dados
+        SET responsavel_externo = 'Bazinga editado!', 
+          prazo_externo = '2025-06-10 12:00:00', 
+          status_externo = 'em_progresso')
+      WHERE ticket_id = 28;
+    
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+      WHERE ticket_id = 28' at line 4
+  Backtrace :
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/chamadoexterno/hook.php:98                 
+  src/Plugin.php:1713                                plugin_chamadoexterno_item_update()
+  src/CommonDBTM.php:1625                            Plugin::doHook()
+  front/ticket.form.php:90                           CommonDBTM->update()
+  public/index.php:82                                require()
+  {"user":"2@2c15cd56775d"} 

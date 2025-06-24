@@ -10,3 +10,55 @@
 [login] 3: Login falhou para glpi no IP 172.18.0.1
 2025-06-23 11:39:30 [@f088bb054730]
 [login] 3: glpi fez login no IP 172.18.0.1
+2025-06-23 19:58:16 [@2c15cd56775d]
+[login] 3: glpi fez login no IP 172.19.0.1
+2025-06-23 23:00:00 [2@2c15cd56775d]
+[setup] [Plugin 8] 3: Plugin Chamado Externo foi desinstalado por glpi (2).
+2025-06-23 23:00:02 [2@2c15cd56775d]
+[setup] [Plugin 9] 3: Plugin Chamado Externo foi instalado por glpi (2).
+2025-06-23 23:00:07 [2@2c15cd56775d]
+[setup] [Plugin 10] 3: Plugin Chamado Externo foi ativado por glpi (2).
+2025-06-23 23:20:21 [2@2c15cd56775d]
+[setup] [Plugin 12] 3: Plugin Chamado Externo foi desinstalado por glpi (2).
+2025-06-23 23:20:25 [2@2c15cd56775d]
+[setup] [Plugin 13] 3: Plugin Chamado Externo foi instalado por glpi (2).
+2025-06-23 23:21:03 [2@2c15cd56775d]
+[setup] [Plugin 14] 3: Plugin Chamado Externo foi desinstalado por glpi (2).
+2025-06-23 23:21:06 [2@2c15cd56775d]
+[setup] [Plugin 15] 3: Plugin Chamado Externo foi instalado por glpi (2).
+2025-06-23 23:21:52 [2@2c15cd56775d]
+[setup] [Plugin 16] 3: Plugin Chamado Externo foi desinstalado por glpi (2).
+2025-06-23 23:21:54 [2@2c15cd56775d]
+[setup] [Plugin 17] 3: Plugin Chamado Externo foi instalado por glpi (2).
+2025-06-23 23:22:01 [2@2c15cd56775d]
+[setup] [Plugin 18] 3: Plugin Chamado Externo foi ativado por glpi (2).
+2025-06-23 23:27:39 [2@2c15cd56775d]
+[setup] [Plugin 19] 3: Plugin Chamado Externo foi desinstalado por glpi (2).
+2025-06-23 23:27:41 [2@2c15cd56775d]
+[setup] [Plugin 20] 3: Plugin Chamado Externo foi instalado por glpi (2).
+2025-06-23 23:28:21 [2@2c15cd56775d]
+[setup] [Plugin 21] 3: Plugin Chamado Externo foi desinstalado por glpi (2).
+2025-06-23 23:28:25 [2@2c15cd56775d]
+[setup] [Plugin 22] 3: Plugin Chamado Externo foi instalado por glpi (2).
+2025-06-23 23:28:30 [2@2c15cd56775d]
+[setup] [Plugin 23] 3: Plugin Chamado Externo foi desinstalado por glpi (2).
+2025-06-23 23:29:07 [2@2c15cd56775d]
+[setup] [Plugin 24] 3: Plugin Chamado Externo foi instalado por glpi (2).
+2025-06-23 23:29:13 [2@2c15cd56775d]
+[setup] [Plugin 25] 3: Plugin Chamado Externo foi ativado por glpi (2).
+2025-06-23 23:29:17 [2@2c15cd56775d]
+[setup] [Plugin 26] 3: Plugin Chamado Externo foi desativado por glpi (2).
+2025-06-23 23:29:24 [2@2c15cd56775d]
+[setup] [Plugin 27] 3: Plugin Chamado Externo foi desinstalado por glpi (2).
+2025-06-23 23:39:59 [2@2c15cd56775d]
+[setup] [Plugin 28] 3: Plugin Chamado Externo foi instalado por glpi (2).
+2025-06-23 23:40:05 [2@2c15cd56775d]
+[setup] [Plugin 29] 3: Plugin Chamado Externo foi desinstalado por glpi (2).
+2025-06-23 23:40:06 [2@2c15cd56775d]
+[setup] [Plugin 30] 3: Plugin Chamado Externo foi instalado por glpi (2).
+2025-06-23 23:40:09 [2@2c15cd56775d]
+[setup] [Plugin 31] 3: Plugin Chamado Externo foi ativado por glpi (2).
+2025-06-24 00:45:33 [2@2c15cd56775d]
+[setup] [Plugin 76] 3: Plugin Chamado Externo foi desativado por glpi (2).
+2025-06-24 00:45:35 [2@2c15cd56775d]
+[setup] [Plugin 77] 3: Plugin Chamado Externo foi desinstalado por glpi (2).
