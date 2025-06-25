@@ -1,6 +1,7 @@
 services:
   glpi-db:
     image: mysql
+    user: "1000:1000"
     container_name: glpi-db
     environment:
       MYSQL_ROOT_PASSWORD: root
