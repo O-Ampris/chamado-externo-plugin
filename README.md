@@ -51,6 +51,10 @@ Para ativar o plugin quando já dentro do `GLPI`, certifique-se de que a pasta `
 
 E pronto, seu plugin está ativo! sinta-se a vontade para utilizar as novas funcionalidades que ele te proporciona no sistema!
 
+# AVISOS!
+
+Caso você enfrente problemas de permissão ao rodar o `docker compose`, adicione ao `service` do `mysql` o campo `user: "1000:1000"` e o problema não irá mais ocorrer, caso mesmo assim esteja com problema, apague o arquivo `data/glpi-db/mysql.sock`, pois como ele é um link simbólico, em alguns casos o link pode não funcionar mais e precisa ser gerado novamente pelo próprio container docker.
+
 # Finalizações
 
 Agora a esta altura seu plugin `GLPI` para chamados externos já está completamente funcional, faça um bom uso, conferindo os novos campos adicionados na aba de criação/edição de chamados, fique a vontade para realizar , e não deixe de deixar seu feedback se possível!
