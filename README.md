@@ -3,7 +3,7 @@
 O plugin em questão fornece a seguinte funcionalidade de adicionar na aba de criação/edição de chamados (Tickets), adicionando a aba de 
 responsável externo, prazo de atendimento externo e status externo. Nisso o operador do sistema pode adicionar essas informações extras ao chamado e editar elas no sistema como preferir, sendo esses dados persistentes no banco de dados do GLPI usando sua própria table personalizada para tal.
 
-# Instalação
+# Instalação (GLPI)
 
 Para instalar o plugin há duas formas, antes de qualquer coisa, recomenda-se baixar ou clonar o repositório para deixar tudo preparado, quando você for baixar, haverá a pasta data, que possui os dados do `GLPI` e do banco de dados (`mysql`), assim não necessitando o setup inicial do `GLPI` assim que ele é baixado.
 
@@ -41,11 +41,11 @@ Para realizar a instalação manual, primeiro deve-se confirmar de ter o `mysql`
 
 Acesse o endereço local de sua máquina (`localhost`) e então siga até o fim do setup inicial do `GLPI` isso te dará uma instalação completamente nova do `GLPI` em seu ambiente local, deixando por sua conta e risco qualquer modificação ou alteração presente para fazê-lo funcionar corretamente.
 
-# Login
+## Login
 
 Para logar no `GLPI` independentemente do método de instalação, use as credenciais `glpi`, tanto para `login` quanto `senha`, pois em um `GLPI` não configurado, essas credênciais dão permissões de um super-admin, te permitindo realizar todos os testes e alterações no sistema sem se preocupar com permissionamento ou outras inconvniências que possa acabar ocorrendo utilizando outros perfis existentes, caso seja um ambiente em produção, sinta-se livre para usar seu perfil de administrador.
 
-# Ativação
+# Instalação (Plugin)
 
 Para ativar o plugin quando já dentro do `GLPI`, certifique-se de que a pasta `chamadoexterno` esteja dentro do `GLPI` na pasta `plugins`, ficando algo como `plugins/chamadoexterno`, caso você queira verificar se tudo correu corretamente, acesse a aba `Configurações` > `Plugins` no próprio `GLPI` e na lista deve aparecer o plugin `Chamado Externo` (`chamadoexterno`) desenvolvido por `Fabio Araújo`, após isso certifique-se de que esteja instalado (ícone de pasta na lateral está com um `-` e não um `+`), e que o plugin esteja ativo (toggle está verde e marcado).
 
@@ -53,4 +53,4 @@ E pronto, seu plugin está ativo! sinta-se a vontade para utilizar as novas func
 
 # Finalizações
 
-Agora a esta altura seu plugin `GLPI` para chamados externos já está completamente funcional, faça um bom uso, e não deixe de deixar seu feedback se possível!
+Agora a esta altura seu plugin `GLPI` para chamados externos já está completamente funcional, faça um bom uso, conferindo os novos campos adicionados na aba de criação/edição de chamados, fique a vontade para realizar , e não deixe de deixar seu feedback se possível!

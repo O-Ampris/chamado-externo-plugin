@@ -1,6 +1,7 @@
 services:
   glpi-db:
     image: mysql
+    container_name: glpi-db
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: glpi
@@ -13,6 +14,7 @@ services:
     
   glpi-web:
     image: diouxx/glpi
+    container_name: glpi-web
     environment:
       TIMEZONE: America/Sao_Paulo
     networks:
@@ -22,8 +24,8 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./data/glpi-web:/var/www/html/glpi
-      - ./chamadoexterno:/var/www/html/glpi/plugins/chamadoexterno
+      - "./data/glpi-web:/var/www/html/glpi"
+      - "./chamadoexterno:/var/www/html/glpi/plugins/chamadoexterno"
 
 networks:
   glpi-network:
